@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="594A414F-DF2C-5067-E335-16FB4A134C80" name="ZAJECIA">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:58:35 UTC</createdTime>
+<generatorID>FC61FF70-261A-43AA-6D60-C14FC33DC3B3</generatorID>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KOD_PRZEDMIOTU" id="FF138287-7DAF-65F6-7C79-C6C197AF0833">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:58:35 UTC</createdTime>
+<generatorID>A70E0109-3359-5127-6424-57ACE637CF61</generatorID>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97020BB9-117E-B7C6-353E-00EF5DF3A3A3" referredColumn="DE29F47E-7300-4961-97D0-538737AB7796"/>
+</associations>
+</Column>
+<Column name="ID_NAUCZYCIELA" id="0F0694A8-8AE8-10BC-6E0B-B1F89C205E06">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:58:35 UTC</createdTime>
+<generatorID>380257B5-AABF-6B78-8134-D522AA88BF8E</generatorID>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA036525-7371-8738-F83E-BB880080195B" referredColumn="EEC671DB-3E60-FF63-52E1-5F20449DDBA8"/>
+</associations>
+</Column>
+<Column name="WYMIAR_GODZINOWY" id="D1117AED-2DDB-A4A5-A4CB-A4D9F36EBE7C">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:58:35 UTC</createdTime>
+<generatorID>187CB2B6-5DBE-D281-2958-EFAC3E84DDDF</generatorID>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D49294D4-3502-D620-5390-10FF60508F8E" name="ZAJECIA_PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:58:35 UTC</createdTime>
+<generatorID>811B76AB-D3F7-BDA0-9FB7-0E26B140F76C</generatorID>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F0694A8-8AE8-10BC-6E0B-B1F89C205E06"/>
+<colUsage columnID="FF138287-7DAF-65F6-7C79-C6C197AF0833"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1553879D-DE4D-3556-5259-23B9E56ED022" name="ZAJECIA_NAUCZYCIEL_FK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:58:35 UTC</createdTime>
+<generatorID>99954240-C80F-66BA-2BA1-C6B9EA565AD4</generatorID>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F0694A8-8AE8-10BC-6E0B-B1F89C205E06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E49B4E1-D77A-7C9A-7BF8-08102A74352D" name="ZAJECIA_PRZEDMIOT_FK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:58:35 UTC</createdTime>
+<generatorID>394A9857-F01F-EE69-9928-0FFE9A7C58E5</generatorID>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF138287-7DAF-65F6-7C79-C6C197AF0833"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

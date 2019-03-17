@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A718E101-544E-E61A-FB60-EC830561C357" name="PRZEDMIOT">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:51:32 UTC</createdTime>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<engineerTo>
+<item key="BF14DFBB-3ED0-2F6F-F471-81475EBBFBD3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KOD_PRZEDMIOTU" id="1FC3DC8B-7AAE-7B3D-4383-F3CE248DC6A8">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:53:26 UTC</createdTime>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<engineerTo>
+<item key="BF14DFBB-3ED0-2F6F-F471-81475EBBFBD3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TYTUL" id="1225EB8D-F2C4-6645-3F01-557192459C70">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:53:39 UTC</createdTime>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<engineerTo>
+<item key="BF14DFBB-3ED0-2F6F-F471-81475EBBFBD3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OPIS" id="A0759617-D760-FADE-DCFE-155D586EC228">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:53:50 UTC</createdTime>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<engineerTo>
+<item key="BF14DFBB-3ED0-2F6F-F471-81475EBBFBD3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_NAUCZYCIELA" id="AC011081-E095-BF05-0DB4-46A7AA05BE7C">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:54:02 UTC</createdTime>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<engineerTo>
+<item key="BF14DFBB-3ED0-2F6F-F471-81475EBBFBD3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="07C10597-9690-ABBF-ACAC-2DE7F740D845" name="PRZEDMIOT PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:53:38 UTC</createdTime>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<engineerTo>
+<item key="BF14DFBB-3ED0-2F6F-F471-81475EBBFBD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1FC3DC8B-7AAE-7B3D-4383-F3CE248DC6A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Nauczyciel_przedmiot" id="A4292724-F4C3-5B9C-FB39-E995D9944ABF" version="3.5">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-11 13:48:31 UTC</createdTime>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A4292724-F4C3-5B9C-FB39-E995D9944ABF</designId>
+</OSDM_Design>

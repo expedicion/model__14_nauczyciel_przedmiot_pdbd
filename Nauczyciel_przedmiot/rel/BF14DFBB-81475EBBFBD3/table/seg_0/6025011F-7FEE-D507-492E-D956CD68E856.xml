@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6025011F-7FEE-D507-492E-D956CD68E856" name="WYNAGRODZENIE">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:05:02 UTC</createdTime>
+<generatorID>2C716785-85E4-D4A2-5E09-E915100BD35A</generatorID>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_NAUCZYCIELA" id="FB24C654-C3FA-3BBA-5517-82E1982EB2D1">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:05:02 UTC</createdTime>
+<generatorID>653CD842-0938-AE84-56CC-EE4FCF522FF5</generatorID>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F4583EC-AA2B-CD92-DAB8-E6F58813B3D4" referredColumn="EEC671DB-3E60-FF63-52E1-5F20449DDBA8"/>
+</associations>
+</Column>
+<Column name="PENSJA" id="F016FBE4-A363-A2DD-4F95-B36AC8C34892">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:05:02 UTC</createdTime>
+<generatorID>0CFC6848-6961-DC58-DCCE-1D4C67362D02</generatorID>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FAA9B87-6595-8709-FF81-7A0B79776922" name="WYNAGRODZENIE_PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:05:02 UTC</createdTime>
+<generatorID>8DDAD998-6E2E-F408-1334-E9E35E09CB3C</generatorID>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB24C654-C3FA-3BBA-5517-82E1982EB2D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85337D96-62C8-DC83-FCFF-A00727D58372" name="WYNAGRODZENIE_NAUCZYCIEL_FK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:05:02 UTC</createdTime>
+<generatorID>58507344-1759-8120-EA1A-E1D451B03AD3</generatorID>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB24C654-C3FA-3BBA-5517-82E1982EB2D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

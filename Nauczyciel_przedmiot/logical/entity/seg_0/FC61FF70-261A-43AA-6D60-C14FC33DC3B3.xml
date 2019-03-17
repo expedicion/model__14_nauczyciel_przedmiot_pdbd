@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC61FF70-261A-43AA-6D60-C14FC33DC3B3" name="ZAJECIA">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:51:52 UTC</createdTime>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<engineerTo>
+<item key="BF14DFBB-3ED0-2F6F-F471-81475EBBFBD3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KOD_PRZEDMIOTU" id="A70E0109-3359-5127-6424-57ACE637CF61">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:55:54 UTC</createdTime>
+<generatorID>394A9857-F01F-EE69-9928-0FFE9A7C58E5</generatorID>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<engineerTo>
+<item key="BF14DFBB-3ED0-2F6F-F471-81475EBBFBD3" value="true"/>
+</engineerTo>
+<referedAttribute>1FC3DC8B-7AAE-7B3D-4383-F3CE248DC6A8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_NAUCZYCIELA" id="380257B5-AABF-6B78-8134-D522AA88BF8E">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:55:45 UTC</createdTime>
+<generatorID>99954240-C80F-66BA-2BA1-C6B9EA565AD4</generatorID>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<engineerTo>
+<item key="BF14DFBB-3ED0-2F6F-F471-81475EBBFBD3" value="true"/>
+</engineerTo>
+<referedAttribute>699B2B4D-F7F8-AD64-B471-77C1B92A7CEF</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WYMIAR_GODZINOWY" id="187CB2B6-5DBE-D281-2958-EFAC3E84DDDF">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:54:47 UTC</createdTime>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<engineerTo>
+<item key="BF14DFBB-3ED0-2F6F-F471-81475EBBFBD3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="811B76AB-D3F7-BDA0-9FB7-0E26B140F76C" name="ZAJECIA PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:55:45 UTC</createdTime>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<engineerTo>
+<item key="BF14DFBB-3ED0-2F6F-F471-81475EBBFBD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>380257B5-AABF-6B78-8134-D522AA88BF8E</attributeRef>
+<attributeRef>A70E0109-3359-5127-6424-57ACE637CF61</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

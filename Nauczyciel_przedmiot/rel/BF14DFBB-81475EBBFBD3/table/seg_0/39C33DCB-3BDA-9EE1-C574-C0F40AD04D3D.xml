@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39C33DCB-3BDA-9EE1-C574-C0F40AD04D3D" name="PRZEDMIOT">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:58:35 UTC</createdTime>
+<generatorID>A718E101-544E-E61A-FB60-EC830561C357</generatorID>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KOD_PRZEDMIOTU" id="DE29F47E-7300-4961-97D0-538737AB7796">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:58:35 UTC</createdTime>
+<generatorID>1FC3DC8B-7AAE-7B3D-4383-F3CE248DC6A8</generatorID>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYTUL" id="C380CE21-2B26-8207-B74E-7C2C5710F34A">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:58:35 UTC</createdTime>
+<generatorID>1225EB8D-F2C4-6645-3F01-557192459C70</generatorID>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPIS" id="BB8B3368-C98E-6E1D-DA87-19F7E3248303">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:58:35 UTC</createdTime>
+<generatorID>A0759617-D760-FADE-DCFE-155D586EC228</generatorID>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_NAUCZYCIELA" id="CD0BC53F-B303-A854-8A42-5145EAA785A3">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:58:35 UTC</createdTime>
+<generatorID>AC011081-E095-BF05-0DB4-46A7AA05BE7C</generatorID>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7957D31-5135-3629-A234-157469729EAD" name="PRZEDMIOT_PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 13:58:35 UTC</createdTime>
+<generatorID>07C10597-9690-ABBF-ACAC-2DE7F740D845</generatorID>
+<ownerDesignName>Nauczyciel_przedmiot</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE29F47E-7300-4961-97D0-538737AB7796"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
